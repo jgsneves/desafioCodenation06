@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from firstApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('lambda/', views.handle_post_question)
 ]
