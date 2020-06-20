@@ -19,5 +19,5 @@ from firstApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('lambda/', views.handle_post_question)
+    path('lambda/', views.lambda_function)
 ]
